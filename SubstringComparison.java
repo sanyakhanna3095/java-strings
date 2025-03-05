@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class SubstringComparison {
 
     	// Method to create a substring using charAt()
-    	public static String customSubstring(String s, int s, int e) {
+    	public static String customSubstring(String st, int s, int e) {
         	StringBuilder result = new StringBuilder();
-        	for (int i = s; i < e && i < s.length(); i++) {
-            		result.append(s.charAt(i));
+        	for (int i = s; i < e && i < st.length(); i++) {
+            		result.append(st.charAt(i));
         	}
         	return result.toString();
     	}
